@@ -2,8 +2,6 @@
 
 # Multiple Service Accounts
 
-This example illustrates how to use the `service-accounts` module to generate multiple service accounts.
-
 <!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 ## Inputs
 
@@ -22,7 +20,6 @@ This example illustrates how to use the `service-accounts` module to generate mu
 
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 
-To provision this example, run the following from within this directory:
 - `terraform init` to get the plugins
 - `terraform plan` to see the infrastructure plan
 - `terraform apply` to apply the infrastructure build
