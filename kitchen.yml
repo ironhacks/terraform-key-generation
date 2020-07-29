@@ -1,0 +1,34 @@
+---
+driver:
+  name: terraform
+
+provisioner:
+  name: terraform
+
+verifier:
+  name: terraform
+
+platforms:
+  - name: default
+
+suites:
+  - name: single_service_account
+    driver:
+      root_module_directory: test/fixtures/single_service_account/
+    verifier:
+      color: false
+      systems:
+        - name: single_service_account gcp
+          backend: gcp
+          controls:
+            - gcp
+  - name: multiple_service_accounts
+    driver:
+      root_module_directory: test/fixtures/multiple_service_accounts/
+    verifier:
+      color: false
+      systems:
+        - name: multiple_service_accounts gcp
+          backend: gcp
+          controls:
+            - gcp
