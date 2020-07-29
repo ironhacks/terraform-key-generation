@@ -1,16 +1,10 @@
 # terraform-key-generation
 
-# Download Terraform 
+# Download Terraform Via Home Brew on OS X
 
-Have your terminal print a colon-separated list of locations in your PATH.
+Homebrew is a free and open-source package management system for Mac OS X. Install the Terraform formula from the terminal.
 
-$ echo $PATH
-
-Move the terraform binary to one of the listed locations. The below command assumes that the binary is currently in your downloads folder and that your PATH includes /usr/local/bin, but you can customize it if your locations are different.
-
-$ mv ~/Downloads/terraform /usr/local/bin/
-
-Verify that the installation worked by opening a new terminal session and listing Terraform's available subcommands.
+$ brew install terraform
 
 $ terraform -help
 Usage: terraform [-version] [-help] <command> [args]
