@@ -1,5 +1,28 @@
 # terraform-key-generation
 
+# Download Terraform 
+
+Have your terminal print a colon-separated list of locations in your PATH.
+
+$ echo $PATH
+
+Move the terraform binary to one of the listed locations. The below command assumes that the binary is currently in your downloads folder and that your PATH includes /usr/local/bin, but you can customize it if your locations are different.
+
+$ mv ~/Downloads/terraform /usr/local/bin/
+
+Verify that the installation worked by opening a new terminal session and listing Terraform's available subcommands.
+
+$ terraform -help
+Usage: terraform [-version] [-help] <command> [args]
+
+The available commands for execution are listed below.
+The most common, useful commands are shown first, followed by
+less common or more advanced commands. If you're just getting
+started with Terraform, stick with the common commands. For the
+other commands, please read the help and docs before usage.
+##...
+
+
 # Multiple Service Accounts
 
 <!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
