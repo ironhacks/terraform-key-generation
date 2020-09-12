@@ -1,6 +1,6 @@
-# terraform-key-generation
+# Terraform Key Generation
 
-Acknowledgement
+## Acknowledgement
 
 We thank Google and Terraform for making their code open source which enables us to reuse their code in our project. 
 
