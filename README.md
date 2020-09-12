@@ -1,5 +1,9 @@
 # terraform-key-generation
 
+Acknowledgement
+
+We thank Google and Terraform for making their code open source which enables us to reuse their code in our project. 
+
 
 # Download Terraform Via Home Brew on OS X
 
