@@ -61,3 +61,22 @@ $ terraform -install-autocomplete
 - `terraform plan` to see the infrastructure plan
 - `terraform apply` to apply the infrastructure build
 - `terraform destroy` to destroy the built infrastructure
+
+
+## Steps to Run 
+
+1) cd into the examples folder 
+
+2) cd into multiple service account 
+
+3) DO "terraform init"
+
+3) After that export the google cloud credential " export GOOGLE_APPLICATION_CREDENTIALS="XXXX.json"
+
+4) DO "terraform plan"
+
+5) DO "terraform apply"
+
+6) The keys should be generated. 
+
+
